@@ -1,0 +1,100 @@
+dragon@dragon-a-Z4-G4-Workstation:~/Desktop/cv2x-traffic-generator/build/cv2x_traffic_generator$ ./cv2x_traffic_generator -g 40 -a "clock=external,time=external" 
+writing logfile: /home/dragon/v2x_tg_logfiles/v2x_tg_2022_3_18-13_43_45.csv
+Opening RF device...
+[INFO] [UHD] linux; GNU C++ version 9.2.1 20200304; Boost_107100; UHD_3.15.0.0-2build5
+[INFO] [LOGGING] Fastpath logging disabled at runtime.
+Opening USRP channels=1, args: time=external,master_clock_rate=23.04e6
+[INFO] [B200] Detected Device: B210
+[INFO] [B200] Operating over USB 3.
+[INFO] [B200] Initialize CODEC control...
+[INFO] [B200] Initialize Radio control...
+[INFO] [B200] Performing register loopback test... 
+[INFO] [B200] Register loopback test passed
+[INFO] [B200] Performing register loopback test... 
+[INFO] [B200] Register loopback test passed
+[INFO] [B200] Asking for clock rate 23.040000 MHz... 
+[INFO] [B200] Actually got clock rate 23.040000 MHz.
+Set TX freq: 5920.000000 MHz
+Set TX gain: 40.0 dB
+Setting sampling rate 11.52 MHz
+creating signal buffers...
+start time: 2.213675
+/home/dragon/Desktop/cv2x-traffic-generator/cv2x_traffic_generator/cv2x_traffic_generator.c.474: tx_time is in the past (tx_time: 3939.437000, now: 3939.450858). Setting new start time.                                                                                                                                     
+                                                                                                                                                               
+start time: 3939.451016
+/home/dragon/Desktop/cv2x-traffic-generator/cv2x_traffic_generator/cv2x_traffic_generator.c.474: tx_time is in the past (tx_time: 16539.573000, now: 16539.576814). Setting new start time.                                                                                                                                   
+                                                                                                                                                               
+start time: 16539.576945
+/home/dragon/Desktop/cv2x-traffic-generator/cv2x_traffic_generator/cv2x_traffic_generator.c.474: tx_time is in the past (tx_time: 17739.561000, now: 17739.590823). Setting new start time.                                                                                                                                   
+                                                                                                                                                               
+start time: 17739.590913
+/home/dragon/Desktop/cv2x-traffic-generator/cv2x_traffic_generator/cv2x_traffic_generator.c.474: tx_time is in the past (tx_time: 21339.538000, now: 21339.581072). Setting new start time.                                                                                                                                   
+                                                                                                                                                               
+start time: 21339.581209
+/home/dragon/Desktop/cv2x-traffic-generator/cv2x_traffic_generator/cv2x_traffic_generator.c.474: tx_time is in the past (tx_time: 23139.629000, now: 23139.644968). Setting new start time.                                                                                                                                   
+                                                                                                                                                               
+start time: 23139.645078
+/home/dragon/Desktop/cv2x-traffic-generator/cv2x_traffic_generator/cv2x_traffic_generator.c.474: tx_time is in the past (tx_time: 26139.676000, now: 26139.679585). Setting new start time.                                                                                                                                   
+                                                                                                                                                               
+start time: 26139.679682
+/home/dragon/Desktop/cv2x-traffic-generator/cv2x_traffic_generator/cv2x_traffic_generator.c.474: tx_time is in the past (tx_time: 30339.691000, now: 30339.728072). Setting new start time.                                                                                                                                   
+                                                                                                                                                               
+start time: 30339.728178
+/home/dragon/Desktop/cv2x-traffic-generator/cv2x_traffic_generator/cv2x_traffic_generator.c.474: tx_time is in the past (tx_time: 33339.758000, now: 33339.769161). Setting new start time.                                                                                                                                   
+                                                                                                                                                               
+start time: 33339.769263
+/home/dragon/Desktop/cv2x-traffic-generator/cv2x_traffic_generator/cv2x_traffic_generator.c.474: tx_time is in the past (tx_time: 35739.736000, now: 35739.756978). Setting new start time.                                                                                                                                   
+                                                                                                                                                               
+start time: 35739.757082
+/home/dragon/Desktop/cv2x-traffic-generator/cv2x_traffic_generator/cv2x_traffic_generator.c.474: tx_time is in the past (tx_time: 41739.815000, now: 41739.850966). Setting new start time.                                                                                                                                   
+                                                                                                                                                               
+start time: 41739.851060
+/home/dragon/Desktop/cv2x-traffic-generator/cv2x_traffic_generator/cv2x_traffic_generator.c.474: tx_time is in the past (tx_time: 47739.909000, now: 47739.910977). Setting new start time.                                                                                                                                   
+                                                                                                                                                               
+start time: 47739.911063
+/home/dragon/Desktop/cv2x-traffic-generator/cv2x_traffic_generator/cv2x_traffic_generator.c.474: tx_time is in the past (tx_time: 48939.895000, now: 48939.924546). Setting new start time.                                                                                                                                   
+                                                                                                                                                               
+start time: 48939.924654
+/home/dragon/Desktop/cv2x-traffic-generator/cv2x_traffic_generator/cv2x_traffic_generator.c.474: tx_time is in the past (tx_time: 49539.845000, now: 49539.888399). Setting new start time.                                                                                                                                   
+                                                                                                                                                               
+start time: 49539.888548
+/home/dragon/Desktop/cv2x-traffic-generator/cv2x_traffic_generator/cv2x_traffic_generator.c.474: tx_time is in the past (tx_time: 51339.937000, now: 51339.951847). Setting new start time.                                                                                                                                   
+                                                                                                                                                               
+start time: 51339.951968
+/home/dragon/Desktop/cv2x-traffic-generator/cv2x_traffic_generator/cv2x_traffic_generator.c.474: tx_time is in the past (tx_time: 53739.917000, now: 53739.936410). Setting new start time.                                                                                                                                   
+                                                                                                                                                               
+start time: 53739.936572
+/home/dragon/Desktop/cv2x-traffic-generator/cv2x_traffic_generator/cv2x_traffic_generator.c.474: tx_time is in the past (tx_time: 58073.837000, now: 58073.837170). Setting new start time.                                                                                                                                   
+                                                                                                                                                               
+start time: 58073.837264
+/home/dragon/Desktop/cv2x-traffic-generator/cv2x_traffic_generator/cv2x_traffic_generator.c.474: tx_time is in the past (tx_time: 58540.015000, now: 58540.026319). Setting new start time.                                                                                                                                   
+                                                                                                                                                               
+start time: 58540.026390
+/home/dragon/Desktop/cv2x-traffic-generator/cv2x_traffic_generator/cv2x_traffic_generator.c.474: tx_time is in the past (tx_time: 59740.011000, now: 59740.048597). Setting new start time.                                                                                                                                   
+                                                                                                                                                               
+start time: 59740.048695
+/home/dragon/Desktop/cv2x-traffic-generator/cv2x_traffic_generator/cv2x_traffic_generator.c.474: tx_time is in the past (tx_time: 61536.147000, now: 61536.148149). Setting new start time.                                                                                                                                   
+                                                                                                                                                               
+start time: 61536.148295
+/home/dragon/Desktop/cv2x-traffic-generator/cv2x_traffic_generator/cv2x_traffic_generator.c.474: tx_time is in the past (tx_time: 66340.028000, now: 66340.040551). Setting new start time.                                                                                                                                   
+                                                                                                                                                               
+start time: 66340.040662
+/home/dragon/Desktop/cv2x-traffic-generator/cv2x_traffic_generator/cv2x_traffic_generator.c.474: tx_time is in the past (tx_time: 75340.125000, now: 75340.162113). Setting new start time.                                                                                                                                   
+                                                                                                                                                               
+start time: 75340.162243
+/home/dragon/Desktop/cv2x-traffic-generator/cv2x_traffic_generator/cv2x_traffic_generator.c.474: tx_time is in the past (tx_time: 77140.211000, now: 77140.234501). Setting new start time.                                                                                                                                   
+                                                                                                                                                               
+start time: 77140.234607
+/home/dragon/Desktop/cv2x-traffic-generator/cv2x_traffic_generator/cv2x_traffic_generator.c.474: tx_time is in the past (tx_time: 79540.200000, now: 79540.211118). Setting new start time.                                                                                                                                   
+                                                                                                                                                               
+start time: 79540.211203
+/home/dragon/Desktop/cv2x-traffic-generator/cv2x_traffic_generator/cv2x_traffic_generator.c.474: tx_time is in the past (tx_time: 80740.196000, now: 80740.233507). Setting new start time.                                                                                                                                   
+                                                                                                                                                               
+start time: 80740.233595
+/home/dragon/Desktop/cv2x-traffic-generator/cv2x_traffic_generator/cv2x_traffic_generator.c.474: tx_time is in the past (tx_time: 81301.095000, now: 81301.107868). Setting new start time.                                                                                                                                   
+                                                                                                                                                               
+start time: 81301.107958
+
+
+^CSIGINT received. Exiting...
+

@@ -1,0 +1,46 @@
+Signal generators were off when I stoped the experiment.
+Also external power cables were unpluged from USRPs.
+
+note that tx side (cv2x-traffic generator) makes this log file:
+-rw-rw-r-- 1 dragon dragon 2412961792 Mar 19 13:46 /home/dragon/v2x_tg_logfiles/v2x_tg_2022_3_18-13_43_45.csv
+
+Starts with:
+tx_timestamp_us,prb_start_idx,nof_prb,N_x_id,mcs_idx,rv_idx,sf_idx
+2216000,2,8,34715,4,0,0
+2217000,2,8,34715,4,0,0
+2218000,2,8,34715,4,0,0
+2219000,2,8,34715,4,0,0
+2220000,2,8,34715,4,0,0
+2221000,2,8,34715,4,0,0
+2222000,2,8,34715,4,0,0
+2223000,2,8,34715,4,0,0
+2224000,2,8,34715,4,0,0
+
+Ends with:
+86576455000,2,8,34715,4,0,0
+86576456000,2,8,34715,4,0,0
+86576457000,2,8,34715,4,0,0
+86576458000,2,8,34715,4,0,0
+86576459000,2,8,34715,4,0,0
+86576460000,2,8,34715,4,0,0
+86576461000,2,8,34715,4,0,0
+86576462000,2,8,34715,4,0,0
+86576463000,2,8,34715,4,0,0
+86576464000,2,8,34715,4,0,0
+
+First column is timestamp in us (microseconds)
+basically it transmits every 1ms
+And we ran it for about 24h or 86576s
+It seems that it always uses same configuration PHY flavour
+Mainly msc_idx is always 4! Should rx (pssch_ue) also use 4?
+
+rx.log only contains 24 out of reported 37 good receptions:
+cat rx.log | grep mcs=4 | wc -l
+24
+Makes sense since some output got lost due to only 1000 lines
+scroolback history
+I increased the terminal's scroolback history 100000 lines
+since we seem to have plent of disk space.
+
+TODO:
+try to tell pssch_ue to use mcs=4 to get more packets faster
